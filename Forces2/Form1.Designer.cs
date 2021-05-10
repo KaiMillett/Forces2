@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Fy = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -37,19 +37,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Fy
+            // Label1
             // 
-            this.Fy.AutoSize = true;
-            this.Fy.Location = new System.Drawing.Point(147, 220);
-            this.Fy.Name = "Fy";
-            this.Fy.Size = new System.Drawing.Size(24, 13);
-            this.Fy.TabIndex = 0;
-            this.Fy.Text = "Fy=";
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(147, 220);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(24, 13);
+            this.Label1.TabIndex = 0;
+            this.Label1.Text = "Fy=";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(348, 419);
+            this.label2.Location = new System.Drawing.Point(348, 406);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(24, 13);
             this.label2.TabIndex = 1;
@@ -98,7 +98,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Fy);
+            this.Controls.Add(this.Label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -110,7 +110,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Fy;
+        private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;

@@ -42,6 +42,11 @@ namespace Forces2
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
+            
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
             try
             {
                 // Reads the force and angle from the textboxes.

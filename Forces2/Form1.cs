@@ -44,20 +44,21 @@ namespace Forces2
         {
             try
             {
+                // Reads the force and angle from the textboxes.
                 double Force = double.Parse(textBox1.Text);
                 double Angle = double.Parse(textBox2.Text);
-
+                // Works out what the answers are
                 double Fx = Force * cos(Angle);
                 double Fy = Force * sin(Angle);
-
+                // Puts the calculated numbers in the labels
                 Label1.Text = "Fx = " + Fx;
                 label2.Text = "Fy = " + Fy;
             }
             catch
             {
+                // Shows an error message on the screen if it fails.
                 MessageBox.Show("You need to type numbers into both text boxes.");
             }
         }
     }
 }
-

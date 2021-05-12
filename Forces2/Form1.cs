@@ -40,11 +40,6 @@ namespace Forces2
             return (Math.Acos(x) * 180 / Math.PI);
         }
 
-        private void Button1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
         private void Button1_Click(object sender, EventArgs e)
         {
             try
@@ -63,6 +58,27 @@ namespace Forces2
             {
                 // Shows an error message on the screen if it fails.
                 MessageBox.Show("You need to type numbers into both text boxes.");
+            }
+        }
+
+        private void TabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // 
+                double Fx = double.Parse(textBox3.Text);
+                double Fy = double.Parse(textBox4.Text);
+                // 
+                double Force = Math.Sqrt(Fx * Fx + Fy * Fy);
+                double Angle =
+                // 
+                label3.Text = "Force = " + Force;
+                label4.Text = "Angle = " + Angle;
             }
         }
     }
